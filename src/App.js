@@ -1,9 +1,13 @@
-import Home from '../src/pages/Home'
-// import Index from '../src/pages/Index'
+import Index from '../src/pages/Index'
+import { Overlay } from './components/Overlay';
+import './App.scss'
 
 function App() {
   return (
-    <Home />
+    <div className='main'>
+      <Index />
+      <Overlay/>
+    </div>
   );
 }
 

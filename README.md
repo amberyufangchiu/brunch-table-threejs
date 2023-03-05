@@ -6,6 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `nvm use v16.8`
+Has to higher then node version 16.
+
 ### `npm start`
 
 Runs the app in the development mode.\
